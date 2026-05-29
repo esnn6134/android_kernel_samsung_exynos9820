@@ -34,7 +34,7 @@ jobs:
 
     - name: Kernel Configuration
       run: |
-        make O=out ARCH=arm64 exynos9820_defconfig
+        make O=out ARCH=arm64 exynos9820-beyond0lte_defconfig
 
     - name: Compile Kernel with Clang
       run: |
