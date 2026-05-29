@@ -63,5 +63,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: crDroid-16-DTBs
-        path: out/arch/arm64/boot/dts/exy
-        nos/*.dtb
+        path: out/arch/arm64/boot/dts/exynos/*.dtb
