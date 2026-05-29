@@ -1,4 +1,4 @@
-name: Android 16 crDroid Kernel Build
+name: Android 16 crDroid Kernel Build oZel
 
 on:
   workflow_dispatch:
